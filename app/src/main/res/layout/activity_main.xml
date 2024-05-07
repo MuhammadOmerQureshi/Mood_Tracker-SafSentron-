@@ -62,7 +62,7 @@
         android:layout_marginTop="439dp"
         android:layout_marginEnd="154dp"
         android:layout_marginBottom="232dp"
-        android:text="🤪"
+
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,7 +93,7 @@
         android:id="@+id/button5"
         android:layout_width="100dp"
         android:layout_height="70dp"
-        android:text="😡"
+
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
