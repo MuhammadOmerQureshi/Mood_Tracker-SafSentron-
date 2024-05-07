@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button crazyButton = findViewById(R.id.button3);
+        crazyButton.setText("\uD83E\uDD2A");
         crazyButton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
@@ -58,13 +59,14 @@ public class MainActivity extends AppCompatActivity {
 
             public void onClick(View v) {
                 saveResponseToFirebase("Sad");
-                displayPopupMessage("Grandma :heart_eyes: you, Call Grandma! ");
+                displayPopupMessage("Grandma \u2764\uFE0F you, Call Grandma! ");
 
             }
         });
 
 
         Button angryButton = findViewById(R.id.button5);
+        angryButton.setText("\uD83D\uDE21");
         angryButton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
