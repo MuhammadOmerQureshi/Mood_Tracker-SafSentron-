@@ -22,28 +22,60 @@ public class MainActivity extends AppCompatActivity {
 
         mDatabase = FirebaseDatabase.getInstance().getReference();
 
-        Button sadButton = findViewById(R.id.button2);
-        sadButton.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View v) {
-                saveResponseToFirebase("sad");
-                displayPopupMessage("Response saved. Why are you feeling sad?");
-
-
-            }
-        });
-
 
         Button happyButton = findViewById(R.id.button4);
         happyButton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                saveResponseToFirebase("KANON!");
-                displayPopupMessage("KANON!");
-
+                saveResponseToFirebase("HAPPY");
+                displayPopupMessage("HAPPY, YAY!");
 
             }
         });
+
+
+        Button neutralButton = findViewById(R.id.button);
+        neutralButton.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                saveResponseToFirebase("Neutral");
+                displayPopupMessage("Neutral ");
+
+            }
+        });
+
+        Button crazyButton = findViewById(R.id.button3);
+        crazyButton.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                saveResponseToFirebase("Excited");
+                displayPopupMessage("Lets Exercise ");
+            }
+        });
+
+        Button sadButton = findViewById(R.id.button2);
+        sadButton.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                saveResponseToFirebase("Sad");
+                displayPopupMessage("Grandma :heart_eyes: you, Call Grandma! ");
+
+            }
+        });
+
+
+        Button angryButton = findViewById(R.id.button5);
+        angryButton.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                saveResponseToFirebase("Angry");
+                displayPopupMessage("Do you want to drink MILK or Water ");
+
+            }
+        });
+
+
+
     }
 
     private void saveResponseToFirebase(String response) {
