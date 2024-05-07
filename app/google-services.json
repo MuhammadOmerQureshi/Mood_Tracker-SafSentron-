@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1085830771062",
+    "firebase_url": "https://safesentron-ed1d9-default-rtdb.firebaseio.com",
+    "project_id": "safesentron-ed1d9",
+    "storage_bucket": "safesentron-ed1d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085830771062:android:c01420e7c5c9abb75c0a57",
+        "android_client_info": {
+          "package_name": "com.group9.SafeSentron"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnMFYh8Ld6Q-6HRjZyOsNVfUdqYf19VeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085830771062:android:ea5527369640007b5c0a57",
+        "android_client_info": {
+          "package_name": "com.group9.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnMFYh8Ld6Q-6HRjZyOsNVfUdqYf19VeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085830771062:android:ad874b0205c567995c0a57",
+        "android_client_info": {
+          "package_name": "com.group9.safesentron"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnMFYh8Ld6Q-6HRjZyOsNVfUdqYf19VeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
