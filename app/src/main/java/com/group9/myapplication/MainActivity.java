@@ -14,23 +14,34 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mDatabase = FirebaseDatabase.getInstance().getReference();
+
+
         Button happyButton = findViewById(R.id.button4);
         happyButton.setOnClickListener(new View.OnClickListener() {
+
             public void onClick(View v) {
                 saveResponseToFirebase("HAPPY");
                 displayPopupMessage("HAPPY, YAY!");
+
             }
         });
+
+
         Button neutralButton = findViewById(R.id.button);
         neutralButton.setOnClickListener(new View.OnClickListener() {
+
             public void onClick(View v) {
                 saveResponseToFirebase("Neutral");
                 displayPopupMessage("Neutral ");
+
             }
         });
 
         Button crazyButton = findViewById(R.id.button3);
+<<<<<<<<< Temporary merge branch 1
+=========
         crazyButton.setText("\uD83E\uDD2A");
+>>>>>>>>> Temporary merge branch 2
         crazyButton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
@@ -38,25 +49,33 @@ public class MainActivity extends AppCompatActivity {
                 displayPopupMessage("Lets Exercise ");
             }
         });
+
         Button sadButton = findViewById(R.id.button2);
         sadButton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
                 saveResponseToFirebase("Sad");
-
+<<<<<<<<< Temporary merge branch 1
+                displayPopupMessage("Grandma :heart_eyes: you, Call Grandma! ");
+=========
                 displayPopupMessage("Grandma \u2764\uFE0F you, Call Grandma! ");
+>>>>>>>>> Temporary merge branch 2
 
             }
         });
 
 
         Button angryButton = findViewById(R.id.button5);
+<<<<<<<<< Temporary merge branch 1
+=========
         angryButton.setText("\uD83D\uDE21");
+>>>>>>>>> Temporary merge branch 2
         angryButton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
                 saveResponseToFirebase("Angry");
                 displayPopupMessage("Do you want to drink MILK or Water ");
+
             }
         });
     }
